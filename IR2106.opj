@@ -1,0 +1,146 @@
+(ExpressProject "IR2106"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\ir2106.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\ir2106-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\ir2106-pspicefiles\schematic1\ir2106.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ir2106-pspicefiles\schematic1\ir2106.sim"
+        (DisplayName "SCHEMATIC1-IR2106")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "C:\Users\rugel\Downloads\irfs3004.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "C:\Users\rugel\Downloads\irfs3004.lib"))
+      (File ".\ir2106-pspicefiles\ir2106.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\ir2106-pspicefiles\ir2106.lib"))
+      (File "C:\Users\rugel\OneDrive\Documentos\AAModels\Model\IR2106.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "C:\Users\rugel\OneDrive\Documentos\AAModels\Model\IR2106.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (power_Mbreakn
+      (FullPartName "power_Mbreakn.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (IRF6603
+      (FullPartName "IRF6603.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\IRF.OLB")
+      (DeviceIndex "0"))
+    (MbreakN
+      (FullPartName "MbreakN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (IRF150
+      (FullPartName "IRF150.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (VPWL_F_RE_FOREVER
+      (FullPartName "VPWL_F_RE_FOREVER.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (l
+      (FullPartName "l.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG_P.OLB")
+      (DeviceIndex "0"))
+    (VPWL_FILE
+      (FullPartName "VPWL_FILE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (IRF034
+      (FullPartName "IRF034.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\PWRMOS.OLB")
+      (DeviceIndex "0"))
+    (PMV30UN
+      (FullPartName "PMV30UN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\NXP_MOSFETS.OLB")
+      (DeviceIndex "0"))
+    (IRCZ44
+      (FullPartName "IRCZ44.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\IRF.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (IR2106
+      (FullPartName "IR2106.Normal")
+      (LibraryName "C:\USERS\RUGEL\ONEDRIVE\DOCUMENTOS\AAMODELS\IR2106.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Users\rugel\OneDrive\Documentos\AAModels")
+  (MPSSessionName "rugel")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\rugel\onedrive\documentos\trabajos\trabajos orcad\ir2106.dsn")
+      (Path "Design Resources"
+         "c:\users\rugel\onedrive\documentos\trabajos\trabajos orcad\ir2106.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 274"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1062 26 339")
+        (Scroll "0 0")
+        (Zoom "112")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\RUGEL\ONEDRIVE\DOCUMENTOS\TRABAJOS\TRABAJOS ORCAD\IR2106.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

@@ -1,0 +1,110 @@
+(ExpressProject "Bridge"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\bridge.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\bridge-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\bridge-pspicefiles\schematic1\bridge.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\bridge-pspicefiles\schematic1\bridge.sim"
+        (DisplayName "SCHEMATIC1-Bridge")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Model Libraries"
+      (File "C:\Users\rugel\Downloads\Improv.lib"
+        (DisplayName "C:\Users\rugel\Downloads\Improv.lib")
+        (Type "PSpiceLibrary"))
+      (File "C:\Users\rugel\Downloads\irfs3004.lib"
+        (DisplayName "C:\Users\rugel\Downloads\irfs3004.lib")
+        (Type "PSpiceLibrary"))
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "rugel")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (l
+      (FullPartName "l.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (XFRM_LINEAR
+      (FullPartName "XFRM_LINEAR.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (kbreak
+      (FullPartName "kbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (TX102_66_15_3C11
+      (FullPartName "TX102_66_15_3C11.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\MAGNETIC.OLB")
+      (DeviceIndex "0"))
+    (K_Linear
+      (FullPartName "K_Linear.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (E
+      (FullPartName "E.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (K1041T060_3B7
+      (FullPartName "K1041T060_3B7.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\MAGNETIC.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VPWL_F_RE_FOREVER
+      (FullPartName "VPWL_F_RE_FOREVER.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (power_Mbreakn
+      (FullPartName "power_Mbreakn.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 265"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1306 52 356")
+        (Scroll "0 88")
+        (Zoom "170")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\RUGEL\ONEDRIVE\DOCUMENTOS\TRABAJOS\TRABAJOS ORCAD\BRIDGE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
